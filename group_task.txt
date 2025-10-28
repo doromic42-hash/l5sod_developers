@@ -1,0 +1,28 @@
+What We Learned About Git Commands
+
+1. Basic Commands:
+- git init: Initializes a new Git repository
+- git add: Stages changes for commit
+- git commit: Records changes to the repository
+- git push/pull: Synchronizes changes with remote repository
+
+2. Branching:
+- git branch: Creates and manages branches
+- git checkout: Switches between branches
+- git merge: Combines changes from different branches
+
+3. Remote Operations:
+- git remote: Manages remote repository connections
+- git fetch: Downloads changes from remote
+- git pull: Downloads and integrates changes
+
+4. Status and Information:
+- git status: Shows working tree status
+- git log: Views commit history
+- git diff: Shows changes between commits
+
+5. Key Learnings:
+- Version control is essential for collaborative development
+- Branches help manage parallel development
+- Clear commit messages are crucial for project history
+- Regular pulls help keep work synchronized

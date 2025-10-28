@@ -1,0 +1,43 @@
+Section B - Short Answer Questions
+
+1. Purpose of .git directory:
+   The .git directory is the core of a Git repository. It stores all the metadata and object database of your project, including commits, branches, and tags. It contains the complete history and version control information.
+
+2. Difference between git pull and git fetch:
+   - git fetch only downloads new data from the remote repository but doesn't integrate it into your working files
+   - git pull downloads new data AND automatically merges it into your current working branch
+
+3. Purpose of the staging area:
+   The staging area (or index) is a intermediate area where changes are prepared before committing. It allows you to selectively choose which changes to include in your next commit.
+
+4. Command to unstage a file:
+   git restore --staged <file>
+   or
+   git reset HEAD <file>
+
+5. Difference between git revert and git reset:
+   - git revert creates a new commit that undoes the changes from a previous commit
+   - git reset actually moves the branch pointer backwards, effectively removing commits
+
+6. Steps to invite a collaborator on GitHub:
+   1. Go to repository settings
+   2. Click on "Manage access"
+   3. Click "Invite a collaborator"
+   4. Enter their GitHub username or email
+   5. Select their access level
+   6. Send invitation
+
+7. Command to list all branches:
+   git branch
+
+8. Check differences between working directory and last commit:
+   git diff
+
+9. Importance of meaningful commit messages:
+   - Provides clear history of changes
+   - Helps team members understand what changes were made and why
+   - Makes it easier to track down changes and bugs
+   - Facilitates project maintenance and collaboration
+
+10. What happens if you use git push without committing:
+    Nothing will be pushed to the remote repository because git push only pushes committed changes. Uncommitted changes remain in your working directory.
